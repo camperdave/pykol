@@ -222,4 +222,6 @@ patterns = {
     "clanAcceptingApps" : r'<p>Your clan is currently accepting applications\.<br>',
     "clanRankContainer" : r'<select name=level[0-9]+>(.*?)<\/select>',
     "clanRank" : r'<option value=([0-9]+)(?: selected)?>(.*?) \(&deg;([0-9]+)\)<\/option>',
+    "clanID" : r'<a class="?nounder"? href="?showclan.php\?whichclan=([0-9]+)"?>', 
+    "joinedClan" : r'clanhalltop.gif',
 }
